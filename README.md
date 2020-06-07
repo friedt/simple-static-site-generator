@@ -20,7 +20,7 @@ https://jamstack.org/best-practices/
 - You can avoid re-deploying hundreds of files with a system that lets you do “atomic deploys” √
 
 
-What kind of ingredients do we need?
+## What kind of ingredients do we need?
 
 Basically for convenience only:
 * An IDE such as webstorm or vs code,
