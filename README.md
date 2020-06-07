@@ -11,8 +11,8 @@ What kind of ingredients do we need?
 Basically for convenience only:
 * An IDE such as webstorm or vs code,
 * a web server on Linux or Unix (most domains run on those),
-* rsync (by default present on linux)
-* ssh access (optional but recommended to be secure)
+* rsync (by default present on linux and macOS)
+* ssh access (optional but recommended to be secure), i use it with an ssh-key
 * Npm or yarn
 * Shell (for example bash or zsh is running on local machine)
 
