@@ -1,5 +1,5 @@
 #!/bin/sh
-# deploy dist-leo to production
+# deploy dist to production
 # -a, --archive
 # -v, --verbose
 #       This  option  increases  the amount of information you are given during the transfer.  By default,
