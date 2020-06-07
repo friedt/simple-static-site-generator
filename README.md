@@ -10,11 +10,11 @@ What kind of ingredients do we need?
 
 Basically for convenience only:
 * An IDE such as webstorm or vs code,
-* a web server on Linux or Unix,
-* rsync
-* ssh access (optional)
+* a web server on Linux or Unix (most domains run on those),
+* rsync (by default present on linux)
+* ssh access (optional but recommended to be secure)
 * Npm or yarn
-* Shell (for example bash or zsh)
+* Shell (for example bash or zsh is running on local machine)
 
 The important thing is npm and rsync to make it work. Well, if rsync is installed on Apple and Linux environments by default, otherwise you can download rsync here. Rsync must be present both locally and remotely for it to work. I use Apache as a webserver, but this can also be Nginx for example. You copy a folder with files to a server and that's it.
 
