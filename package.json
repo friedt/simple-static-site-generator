@@ -1,0 +1,30 @@
+{
+  "name": "smacss2",
+  "version": "0.0.1",
+  "devDependencies": {
+    "html-import-partials": "^1.0.1",
+    "htmlhint": "^0.10.1",
+    "local-web-server": "^4.2.0",
+    "ncp": "^2.0.0"
+  },
+  "scripts": {
+    "compile": "html-import-partials src/**/*.html -o dist/",
+    "clean": "rm -rf dist",
+    "createdir": "mkdir dist dist/images",
+    "postclean": "npm run createdir && npm run copy",
+    "copy": "ncp src/images dist/images",
+    "mv-html": "rm -rf dist/grid && mkdir dist/grid || true && mv -f dist/grid*.html dist/grid/",
+    "html-lint": "htmlhint dist/",
+    "info": "echo 'npm as a build tool'",
+    "build": "npm run clean && npm run compile && npm run html-lint && echo '=> full build done'",
+    "serve": "ws --directory ./dist --static.extensions html",
+    "start": "npm run serve"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "defaults",
+    "last 3 version",
+    "not IE <= 9",
+    "Edge >= 15"
+  ]
+}
