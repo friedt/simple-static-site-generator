@@ -20,7 +20,7 @@ The important thing is npm and rsync to make it work. Well, if rsync is installe
 
 
 After the update is complete I want to deploy a current copy of my website. I then run a simple shell script, which includes a build command and a deployment command using rsync.
-Within seconds my static website with only the changes is generated and available in the real world.
+Within seconds my static website with ***only the changes*** is generated and available in the real world. It will also remove automatically the files from the server that are not present in your current build.
 
 Benefits:
 - Rsync and ssh are standard on macOS
