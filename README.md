@@ -2,7 +2,7 @@
 A very simple way of building and deploying your static website in seconds.
 
 May be you you don't want or need Gatsby, Hugo, Nuxt, Next, Jekyll and so on.
-Than may be this comes in place. 
+Then may be this comes in place. 
 
 How can I deploy a website easily, quickly and safely without first downloading a static site generator or ftp?
 
