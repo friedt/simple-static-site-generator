@@ -34,4 +34,17 @@ Cons:
 - No deployment history, may be use git in stead
 - Extend the configuration yourself
 
+## npm scripts
+
+I used npm scripts to build it local, this can be extended of course with numerous packages to add css and javascript and other stuff
+
+## Installation
+
+```shell
+$ npm install
+$ npm run build
+$ npm start
+$ ./deploy.sh
+```
+
 
