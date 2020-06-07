@@ -1,5 +1,5 @@
 {
-  "name": "smacss2",
+  "name": "simple-static-site-generator",
   "version": "0.0.1",
   "devDependencies": {
     "html-import-partials": "^1.0.1",
