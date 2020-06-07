@@ -9,6 +9,17 @@ How can I deploy a website easily, quickly and safely without first downloading 
 There are many Static Site Generators, https://www.staticgen.com,
 to choose from, but then I suddenly remembered a very simple and secure solution from the last century, which was used at a full service internet agency where I worked. So basically it still works and is current, namely rsync over ssh.
 
+## Best practices as mentioned here
+
+https://jamstack.org/best-practices/
+
+- Because Jamstack projects don’t rely on server-side code, they can be distributed instead of living on a single server. √
+- With a Jamstack project, anyone should be able to do a git clone, install any needed dependencies with a standard procedure (like npm install), and be ready to run the full project locally. √
+- Take advantage of the world of modern build tools. √
+- Because Jamstack markup is prebuilt, content changes won’t go live until you run another build. √
+- You can avoid re-deploying hundreds of files with a system that lets you do “atomic deploys” √
+
+
 What kind of ingredients do we need?
 
 Basically for convenience only:
@@ -37,6 +48,8 @@ Cons:
 - No web interface aka GUI
 - No deployment history, may be use git in stead
 - Extend the configuration yourself
+
+
 
 ## npm scripts
 
