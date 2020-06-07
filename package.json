@@ -13,7 +13,6 @@
     "createdir": "mkdir dist dist/images",
     "postclean": "npm run createdir && npm run copy",
     "copy": "ncp src/images dist/images",
-    "mv-html": "rm -rf dist/grid && mkdir dist/grid || true && mv -f dist/grid*.html dist/grid/",
     "html-lint": "htmlhint dist/",
     "info": "echo 'npm as a build tool'",
     "build": "npm run clean && npm run compile && npm run html-lint && echo '=> full build done'",
