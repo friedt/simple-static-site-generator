@@ -1,5 +1,5 @@
 # simple-static-site-generator
-A very simple way of building and deploying your static website.
+A very simple way of building and deploying your static website in seconds.
 
 May be you you don't want or need Gatsby, Hugo, Nuxt, Next, Jekyll and so on.
 Than may be this comes in place. 
