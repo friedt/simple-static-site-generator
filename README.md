@@ -4,7 +4,7 @@ A very simple way of building and deploying your static website in seconds.
 May be you you don't want or need Gatsby, Hugo, Nuxt, Next, Jekyll and so on.
 Then may be this comes in place. 
 
-How can I deploy a website easily, quickly and safely without first downloading a static site generator or ftp?
+How can I deploy a website easily, quickly and safely without first downloading a static site generator or use ftp?
 
 There are many Static Site Generators, https://www.staticgen.com,
 to choose from, but then I suddenly remembered a very simple and secure solution from the last century, which was used at a full service internet agency where I worked. So basically it still works and is current, namely rsync over ssh.
