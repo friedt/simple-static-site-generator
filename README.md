@@ -9,7 +9,7 @@ How can I deploy a website easily, quickly and safely without first downloading 
 There are many Static Site Generators, https://www.staticgen.com,
 to choose from, but then I suddenly remembered a very simple and secure solution from the last century, which was used at a full service internet agency where I worked. So basically it still works and is current, namely rsync over ssh.
 
-## Best practices as mentioned here checked
+## Best practices as mentioned are covered 
 
 https://jamstack.org/best-practices/
 
