@@ -53,7 +53,7 @@ Cons:
 
 ## npm scripts
 
-I used npm scripts to build it local, this can be extended of course with numerous packages to add css and javascript and other stuff
+I used npm scripts to build it local, this can also be webpack or some other tooling and extended of course with numerous packages to add css and javascript and other stuff
 
 ## Installation
 
