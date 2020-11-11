@@ -38,7 +38,7 @@ After the update is complete I want to deploy a current copy of my website. I th
 Within seconds my static website with ***only the changes*** is generated and available in the real world. It will also remove automatically the files from the server that are not present in your current build.
 
 Benefits:
-- Rsync and ssh are standard on macOS
+- Rsync and ssh are by default present on macOS
 - Also on most linux distributions or after installation (on Windows)
 - No third party tools required
 - Fast, simple and safe
