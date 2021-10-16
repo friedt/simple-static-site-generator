@@ -31,7 +31,7 @@ Basically for convenience only:
 * Shell (for example bash or zsh is running on local machine)
 
 
-The important thing is npm and rsync to make it work. Well, if rsync is installed on Apple and Linux environments by default, otherwise you can download rsync, https://rsync.samba.org/download.html. Rsync must be present locally or remotely for it to work. I use Apache as a webserver, but this can also be Nginx for example. You copy a folder with files to a server and that's it.
+The important thing is npm and rsync to make it work. Well, if rsync is installed on Apple and Linux environments by default, otherwise you can download rsync, https://rsync.samba.org/download.html. Rsync must be present locally and remotely for it to work. I use Apache as a webserver, but this can also be Nginx for example. You copy a folder with files to a server and that's it.
 
 The 'src' directory with html templates and whatever you want(css, js, images) renders it into a full html website.
 After the update is complete I want to deploy a current copy of my website. I then run a simple shell script, which includes a build command and a deployment command using rsync.
