@@ -4,7 +4,7 @@ A very simple way of building and deploying your static website in seconds.
 May be you don't want or need Gatsby, Hugo, Nuxt, Next, Jekyll and so on.
 Then may be this comes in place. 
 
-How can I deploy a website easily, quickly and safely without first downloading a static site generator or use ftp?
+How can you deploy a website easily, quickly and safely without first downloading a static site generator or use ftp?
 
 There are many Static Site Generators, https://www.staticgen.com,
 to choose from, but then I suddenly remembered a very simple and secure solution from the last century, which was used at a full service internet agency where I worked. So basically it still works and is current, namely rsync over ssh.
@@ -26,7 +26,7 @@ Basically for convenience only:
 * An IDE such as webstorm or vs code,
 * a web server on Linux or Unix (most domains run on those),
 * rsync (by default present on linux and macOS)
-* ssh access (optional but recommended to be secure), i use it with an ssh-key
+* ssh access (optional but recommended to be secure), used with an ssh-key
 * Npm or yarn
 * Shell (for example bash or zsh is running on local machine)
 
@@ -34,7 +34,7 @@ Basically for convenience only:
 The important thing is npm and rsync to make it work. Well, if rsync is installed on Apple and Linux environments by default, otherwise you can download rsync, https://rsync.samba.org/download.html. Rsync must be present locally and remotely for it to work. I use Apache as a webserver, but this can also be Nginx for example. You copy a folder with files to a server and that's it.
 
 The 'src' directory with html templates and whatever you want(css, js, images) renders it into a full html website.
-After the update is complete I want to deploy a current copy of my website. I then run a simple shell script, which includes a build command and a deployment command using rsync.
+After the update is complete you want to deploy a current copy of my website. I then run a simple shell script, which includes a build command and a deployment command using rsync.
 Within seconds my static website with ***only the changes*** is generated and available in the real world. It will also remove automatically the files from the server that are not present in your current build.
 
 Benefits:
@@ -53,7 +53,7 @@ Cons:
 
 ## npm scripts
 
-I used npm scripts to build it local, this can also be webpack or some other tooling and extended of course with numerous packages to add css and javascript and other stuff
+Using npm scripts to build it local, this can also be webpack or some other tooling and extended of course with numerous packages to add css and javascript and other stuff
 
 ## Installation
 
